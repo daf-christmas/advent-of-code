@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{203EF350-73F2-46F1-9F02-4841C6C9D55D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DafDev.DafsChristmas.Domains", "DafDev.DafsChristmas.Domains", "{AD820916-59EC-4352-93BD-194B665A402A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.DafsChristmas.Domains.CalorieCounter", "src\DafDev.DafsChristmas.Domains\DafDev.DafsChristmas.Domains.CalorieCounter\DafDev.DafsChristmas.Domains.CalorieCounter.csproj", "{E4F10DF7-D1E6-4FB6-8A72-FEFE06C67578}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C5784116-85D3-4F6E-BA4E-AADF58FECE8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DafDev.DafsChristmas.Domains", "DafDev.DafsChristmas.Domains", "{8B8F98F6-11AE-43BC-BDE8-0B7C52E61130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.DafsChristmas.Domains.CalorieCounter.Tests", "tests\DafDev.DafsChristmas.Domains\DafDev.DafsChristmas.Domains.CalorieCounter.Tests\DafDev.DafsChristmas.Domains.CalorieCounter.Tests.csproj", "{8CE3550D-3552-4549-89F2-00EC76688AFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F10DF7-D1E6-4FB6-8A72-FEFE06C67578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F10DF7-D1E6-4FB6-8A72-FEFE06C67578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F10DF7-D1E6-4FB6-8A72-FEFE06C67578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F10DF7-D1E6-4FB6-8A72-FEFE06C67578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE3550D-3552-4549-89F2-00EC76688AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE3550D-3552-4549-89F2-00EC76688AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE3550D-3552-4549-89F2-00EC76688AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE3550D-3552-4549-89F2-00EC76688AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD820916-59EC-4352-93BD-194B665A402A} = {203EF350-73F2-46F1-9F02-4841C6C9D55D}
+		{E4F10DF7-D1E6-4FB6-8A72-FEFE06C67578} = {AD820916-59EC-4352-93BD-194B665A402A}
+		{8B8F98F6-11AE-43BC-BDE8-0B7C52E61130} = {C5784116-85D3-4F6E-BA4E-AADF58FECE8A}
+		{8CE3550D-3552-4549-89F2-00EC76688AFE} = {8B8F98F6-11AE-43BC-BDE8-0B7C52E61130}
+	EndGlobalSection
+EndGlobal
