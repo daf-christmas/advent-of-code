@@ -15,6 +15,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DafDev.DafsChristmas.Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.DafsChristmas.Domains.CalorieCounter", "src\DafDev.DafsChristmas.Domains\DafDev.DafsChristmas.Domains.CalorieCounter\DafDev.DafsChristmas.Domains.CalorieCounter.csproj", "{C8FAD22C-7632-4058-B74D-C8BA6DA959FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DafDev.DafsChristmas.Infra", "DafDev.DafsChristmas.Infra", "{633DF863-3F06-4A70-A8F0-69E78D1FE9EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DafDev.DafsChristmas.Client", "DafDev.DafsChristmas.Client", "{94E5FE84-446B-45DF-BD63-D4864A809B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.DafsChristmas.Infra", "src\DafDev.DafsChristmas.Infra\DafDev.DafsChristmas.Infra\DafDev.DafsChristmas.Infra.csproj", "{597F54E0-4B1B-4252-A8BF-6DF7606F592A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DafDev.DafsChristmas.Infra", "DafDev.DafsChristmas.Infra", "{12F51F39-E123-4CD6-82E1-CE3341974A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DafDev.DafsChristmas.Infra.Tests", "tests\DafDev.DafsChristmas.Infra\DafDev.DafsChristmas.Infra.Tests\DafDev.DafsChristmas.Infra.Tests.csproj", "{B2882A7E-1506-4A78-B893-39173DE7BEFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +39,14 @@ Global
 		{C8FAD22C-7632-4058-B74D-C8BA6DA959FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8FAD22C-7632-4058-B74D-C8BA6DA959FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8FAD22C-7632-4058-B74D-C8BA6DA959FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597F54E0-4B1B-4252-A8BF-6DF7606F592A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597F54E0-4B1B-4252-A8BF-6DF7606F592A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597F54E0-4B1B-4252-A8BF-6DF7606F592A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597F54E0-4B1B-4252-A8BF-6DF7606F592A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2882A7E-1506-4A78-B893-39173DE7BEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2882A7E-1506-4A78-B893-39173DE7BEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2882A7E-1506-4A78-B893-39173DE7BEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2882A7E-1506-4A78-B893-39173DE7BEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +56,11 @@ Global
 		{8B8F98F6-11AE-43BC-BDE8-0B7C52E61130} = {C5784116-85D3-4F6E-BA4E-AADF58FECE8A}
 		{8CE3550D-3552-4549-89F2-00EC76688AFE} = {8B8F98F6-11AE-43BC-BDE8-0B7C52E61130}
 		{C8FAD22C-7632-4058-B74D-C8BA6DA959FA} = {AD820916-59EC-4352-93BD-194B665A402A}
+		{633DF863-3F06-4A70-A8F0-69E78D1FE9EE} = {203EF350-73F2-46F1-9F02-4841C6C9D55D}
+		{94E5FE84-446B-45DF-BD63-D4864A809B54} = {203EF350-73F2-46F1-9F02-4841C6C9D55D}
+		{597F54E0-4B1B-4252-A8BF-6DF7606F592A} = {633DF863-3F06-4A70-A8F0-69E78D1FE9EE}
+		{12F51F39-E123-4CD6-82E1-CE3341974A73} = {C5784116-85D3-4F6E-BA4E-AADF58FECE8A}
+		{B2882A7E-1506-4A78-B893-39173DE7BEFB} = {12F51F39-E123-4CD6-82E1-CE3341974A73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AAFD139-2D7D-42F8-9289-75F277137EC7}
